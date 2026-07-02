@@ -1,0 +1,11 @@
+webshell-scanner/
+├── index.php              # Main scanner interface
+├── scanner.class.php      # Core scanning logic
+├── report.class.php       # Report generation
+├── config.php             # Configuration settings
+├── logs/                  # Scan logs directory
+│   └── .htaccess          # Protect logs
+├── reports/               # Generated reports
+│   └── .htaccess          # Protect reports
+├── signatures.db.php      # Suspicious pattern database
+└── README.md              # Documentation
